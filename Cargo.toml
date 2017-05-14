@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["Christopher Augustus <repos@c4augustus.com>"]
 
 [dependencies]
+##rustvr-core = { git = "https://github.com/RustVR/rustvr-core.git", version = "0.1" }
+## to use local working trees instead:
+rustvr-core = { path = "../rustvr-core", version = "0.1" }
